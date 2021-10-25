@@ -91,6 +91,7 @@ export default {
   height: 594px;
   background-color: #121F4D;
   position: relative;
+  overflow: hidden;
 }
 
 .vector-9 {
