@@ -1,24 +1,25 @@
 <template>
-  <div class="wrapper">
-    <div class="header">
-      <div class="logo">
-        <div class="logo-text">
-          <ul class="FTML">
-            <li class="F"><img src="../assets/svg/F.svg" alt="F"></li>
-            <li class="T"><img src="../assets/svg/T.svg" alt="T"></li>
-            <li class="M"><img src="../assets/svg/M.svg" alt="M"></li>
-            <li class="L"><img src="../assets/svg/L.svg" alt="L"></li>
-          </ul>
+  <div class="back-wrapper-S">
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <div class="logo-text">
+            <ul class="FTML">
+              <li class="F"><img src="../assets/svg/F.svg" alt="F"></li>
+              <li class="T"><img src="../assets/svg/T.svg" alt="T"></li>
+              <li class="M"><img src="../assets/svg/M.svg" alt="M"></li>
+              <li class="L"><img src="../assets/svg/L.svg" alt="L"></li>
+            </ul>
+          </div>
+          <div class="logo-pic">
+            <object type="image/svg+xml" class="light" :data=this.logo></object>
+          </div>
         </div>
-        <div class="logo-pic">
-          <object type="image/svg+xml" class="light" :data=this.logo></object>
-        </div>
+
+        <Menu/>
+
       </div>
-
-      <Menu/>
-
     </div>
-
   </div>
 
 </template>
@@ -33,7 +34,7 @@ export default {
     Menu
   },
   data() {
-    return{
+    return {
       F: require("../assets/svg/F.svg"),
       T: require("../assets/svg/T.svg"),
       M: require("../assets/svg/M.svg"),
@@ -51,7 +52,7 @@ export default {
   position: relative;
 
 
-  .header{
+  .header {
     padding-top: 30px;
     display: flex;
     flex-direction: row;
@@ -64,7 +65,6 @@ export default {
     padding-left: 125px;
     display: flex;
     justify-content: center;
-
 
 
     .FTML {
@@ -85,5 +85,7 @@ export default {
 
   }
 }
+
+
 
 </style>

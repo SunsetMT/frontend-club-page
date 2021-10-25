@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
 .up-wrapper {
+  margin: auto;
   background-color: #001134;
   background-image: url("../assets/png/Vector_6.png"), url("../assets/png/Vector 5.png");
   background-size: 1200px 960px;

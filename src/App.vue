@@ -30,9 +30,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 0;
+  background: #001134;
   max-width: 1200px;
   position: relative;
+  margin: auto;
 }
 
 
