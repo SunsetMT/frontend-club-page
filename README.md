@@ -1,9 +1,9 @@
 # frontend-club
 
 ### About
-'''
+```
 One page Application. Main page of our ITMO student club.
-'''
+```
 
 ## Project setup
 ```
