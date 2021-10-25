@@ -28,7 +28,7 @@
 import Menu from "./Menu"
 
 export default {
-  name: "header",
+  name: "S",
   components: {
     Menu
   },
